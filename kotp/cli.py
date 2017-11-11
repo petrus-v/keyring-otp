@@ -47,6 +47,7 @@ def get_secret_key(keyring, key):
                 keyring, len(keyrings), [k.get_label() for k in keyrings]
             )
         )
+    keyrings[0].ensure_not_locked()
     secrets = [
         item for item in keyrings[0].get_all_items() if
         item.get_label() == key
