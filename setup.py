@@ -42,16 +42,14 @@ setup(
         'Topic :: Utilities',
     ],
 
-
     # metadata for upload to PyPI
     author="Pierre Verkest",
     author_email="pverkest@anybox.fr",
     description="OTP command line tool",
     long_description=long_description,
     license="GPLv3",
-    keywords="odb postgresql odoo snapshot commit version",
-    url="",
-
+    keywords="keyring otp totp",
+    url="https://github.com/petrus-v/keyring-otp",
     entry_points={
         'console_scripts': [
             'kotp=kotp.cli:main',
