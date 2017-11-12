@@ -28,7 +28,7 @@ LGPLv3 = 'License :: OSI Approved :: GNU Lesser General Public License v3 ' \
 
 setup(
     name="keyring-otp",
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     install_requires=requirements,
     test_suite='kotp.tests',
