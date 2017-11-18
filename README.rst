@@ -1,3 +1,9 @@
+
+.. image:: https://api.travis-ci.org/petrus-v/keyring-otp.svg?branch=master
+    :target: https://travis-ci.org/petrus-v/keyring-otp
+    :alt: Travis state
+
+
 ===========
 Keyring OTP
 ===========

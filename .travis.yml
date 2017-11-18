@@ -1,0 +1,18 @@
+language: python
+sudo: false
+
+python:
+  - "3.4"
+
+addons:
+  apt:
+    packages:
+      - xclip
+      - libdbus-1-dev
+      - libdbus-glib-1-dev
+
+install:
+  - pip install keyring-otp
+
+script:
+  - python setup.py test
