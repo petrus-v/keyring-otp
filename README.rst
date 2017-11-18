@@ -103,9 +103,11 @@ Roadmap
   be called once OTP as benn changed (callback may be declared in entry point
   to let user define new callback easly), this apps should declare some
   default behaviours likes:
-    - print in console
-    - filling clipboard (require an init method and final method to set back
-      current clipboad value)
+
+  - print in console
+  - filling clipboard (require an init method and final method to set back
+    current clipboad value)
+
 * Prompt to unlock keyring
 * Thinking replace ``-s`` option to let user use
 * use python keyring to make this app portable with more password manager:
