@@ -20,8 +20,8 @@ class KeyringOTP():
             while time.time() - start_time < self.run_duration:
                 password = totp.now()
                 if previous_password != password:
+                    previous_password = password
                     if self.console_output:
-                        previous_password = password
                         print(
                             "Current TOTP {} at {}".format(
                                 password, time.ctime())
