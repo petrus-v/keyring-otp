@@ -103,8 +103,6 @@ Here an other example by giving the OTP password value in command line::
 Roadmap
 -------
 
-* Setup CI
-* First release
 * make it usable as an API, API consumer may add multiple callback they should
   be called once OTP as benn changed (callback may be declared in entry point
   to let user define new callback easly), this apps should declare some
@@ -115,7 +113,8 @@ Roadmap
     current clipboad value)
 
 * Prompt to unlock keyring
-* Thinking replace ``-s`` option to let user use
+* Thinking replace ``-s`` option and open secret input to avoid le trace
+  in use bash history
 * use python keyring to make this app portable with more password manager:
   GnomeKeyring (for Gnome environments) or KDEWallet (for KDE environments)
   or Win32CryptoRegistry (for Windows)
